@@ -1,0 +1,126 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+}
+
+nav div ul li img {
+    width: 50px;
+}
+
+nav div ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+nav div ul li {
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(189, 189, 189);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navleft {
+    display: flex;
+    flex: 50%;
+}
+
+.navleft ul li a {
+    color: black;
+}
+
+.navright {
+    display: flex;
+    justify-content: flex-end;
+    flex: 50%;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.navright a {
+    padding: 5px 15px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    color: white;
+}
+
+.content {
+    margin: 50px auto;
+    width: 800px;
+    height: 67vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(161, 161, 161);
+}
+
+.contentleft {
+    width: 450px;
+    margin: 30px 10px;
+}
+
+.contentleft i {
+    font-size: 25px;
+}
+
+.contentleft p {
+    text-align: justify;
+}
+
+.contentleft span {
+    margin-right: 20px;
+}
+
+.contact {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.sosmed {
+    margin-top: 40px;
+}
+
+.sosmed i {
+    margin-right: 20px;
+}
+
+.contentright {
+    margin: 30px 10px;
+    box-shadow: 0px 5px 10px rgb(161, 161, 161);
+    border-radius: 5px;
+}
+
+.r_satu {
+    width: 250px;
+}
+
+.r_satu img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.r_dua {
+    text-align: center;
+}
+
+.r_dua h2 {
+    font-size: large;
+}
+
+.r_dua p {
+    margin: -15px;
+    font-size: small;
+}

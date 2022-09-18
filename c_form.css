@@ -1,0 +1,100 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+}
+
+nav div ul li img {
+    width: 50px;
+}
+
+nav div ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+nav div ul li {
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(189, 189, 189);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navleft {
+    display: flex;
+    flex: 50%;
+}
+
+.navleft ul li a {
+    color: black;
+}
+
+.navright {
+    display: flex;
+    justify-content: flex-end;
+    flex: 50%;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.navright a {
+    padding: 5px 15px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    color: white;
+}
+form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form div {
+    margin: 10px;
+}
+
+form div label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form div input, select, textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0px 5px 10px rgb(161, 161, 161);
+}
+
+form div button {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 6px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,95 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+}
+
+nav div ul li img {
+    width: 50px;
+}
+
+nav div ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+nav div ul li {
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(189, 189, 189);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navleft {
+    display: flex;
+    flex: 50%;
+}
+
+.navleft ul li a {
+    color: black;
+}
+
+.navright {
+    display: flex;
+    justify-content: flex-end;
+    flex: 50%;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.navright a {
+    padding: 5px 15px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    color: white;
+}
+
+.isi-content h1 {
+    text-align: center;
+}
+
+.bungkus-content {
+    margin: 20px 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bungkus {
+    margin: 20px 200px auto;
+}
+
+.div-image {
+    width: 650px;
+    margin-right: 50px;
+}
+
+.div-image img {
+    width: 100%;
+}
+
+.keterangan {
+    margin-left: 40px;
+}
+
+
+.k1 {
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teks-content {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="c_form.css">
+    </head>
+    <body>
+        <nav>
+            <div class="navleft">
+                <ul>
+                    <li>
+                        <img src="img/brandred.png" alt="Logo">
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="myproject.html" My Project>My Project</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navright">
+                <a href="contact_form.html">Contact Me</a>
+            </div>
+        </nav>
+
+        <form>
+            <h2>GET IN TOUCH</h2>
+            <div>
+                <label for="input_name">Name</label>
+                <input type="text" id="input_name">
+            </div>
+            <div>
+                <label for="input_email">Email</label>
+                <input type="text" id="input_email">
+            </div>
+            <div>
+                <label for="input_number">Phone Number</label>
+                <input type="text" id="input_number">        
+            </div>
+            <div>
+                <label for="input_subject">Subject</label>
+                <select id="input_subject">
+                    <option hidden></option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                </select>
+            </div>
+            <div>
+                <label for="input_message">Your Message</label>
+                <textarea rows="5" cols="30" id="input_message"></textarea>
+            </div>
+            <div class="submit">
+                <button type="button" onclick="submitData()">Submit</button>
+            </div>
+        </form>
+
+<script src="contact.js"></script>
+
+    </body>
+</html>
